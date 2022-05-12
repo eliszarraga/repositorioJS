@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="css/style.css">
+    
+        <title>formulario de consultas - SALUD MEDICA Y ENFERMERIA</title>
+    </head>
+
+    <body>
+
+        <main>
+            
+        <h1>Universidad de Medicina y Enfermeria "Dr. Jose Enrique Bellos"</h1>
+
+        <h2>Bienvenidos al programa de consulta en donde, si tienes inquietud en cuanto a tu salud mental, te podremos ayudar y asesorar.</h2>
+
+        <div>Este es un programa en donde, rellenando el formulario, puedes optar por una consulta con los mejores psicologos, psicopedagogos o con cualquier terapeuta.</div>
+
+        <br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+        <form id="interrogador" ><!-- aqui inicia el formulario -->
+
+            <fieldset>
+
+                <legend> Complete el formulario</legend>
+
+                <div class="formulario">
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>	
+
+                <label for="nombre" class=""> NOMBRE </label><!-- aqui colocamos el nombre -->
+                    <div>
+                        <input type="name" id="nombre" name="nombre" placeholder="Escriba su nombre"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+                
+                <label for="apellido" class=""> APELLIDO </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="name" id="apellido" name="apellido" placeholder="Escriba su apellido"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="edad" class=""> EDAD </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="number" id="edad" name="edad" placeholder="¿Cuantos años tienes?"><br/>
+                    </div>                   
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="sexo" class=""> SEXO </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="name" id="sexo" name="sexo" placeholder="¿Masculino o femenino?"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="nacionalidad" class=""> NACIONALIDAD </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="name" id="nacionalidad" name="nacionalidad" placeholder="¿De que pais proviene?"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="cedula" class=""> CEDULA </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="number" id="cedula" name="cedula" placeholder="Escriba su cedula"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="ciudad" class=""> CIUDAD </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="name" id="ciudad" name="ciudad" placeholder="¿En cual ciudad vives?"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="direccion" class=""> DIRECCION </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="name" id="direccion" name="direccion" placeholder="¿Donde vive?"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <label for="telefono" class=""> TELEFONO </label><!-- aqui colocamos el apellido -->
+                    <div>
+                        <input type="number" id="telefono" name="telefono" placeholder="ej: +56 9 12345678"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+                
+                <label for="correoElectronico" class=""> CORREO ELECTRONICO </label><!-- aqui colocamos el E-MAIL -->
+                    <div>
+                        <input type="e-mail" id="correoElectronico" name="correoElectronico" placeholder="Escriba su correo"><br/>
+                    </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+                
+                <label for="comentario" class=""> COMENTARIO </label><!-- aqui colocamos el comentario -->
+                    <div>
+                        <textarea name="comentarios" id="comentario" cols="80" rows="10" placeholder="describa ¿cual es su inquietud?"></textarea><br/>
+                    </div>
+                
+                </div>
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+                <button type="submit" id="botonEnviar" value="enviar">Enviar formulario</button> <!-- aqui colocamos un boton -->
+                <input type="reset" name="borrar" value="reiniciar comentario"/> <!-- aqui colocamos un boton -->
+
+            </fieldset>
+
+        </form><!-- aqui inicia el formulario -->
+
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+        <div id="respuesta" class="respuesta_Formulario"></div>
+
+    </main>
+
+    </body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="js/formulario.js"></script>
+
+</html>
